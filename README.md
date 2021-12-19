@@ -11,6 +11,11 @@
             <li>Run the command: composer dumpautoload</li>
         </ul>
     </li>
+    <li>
+        <ul>
+            <li>Third Step: Now you have to create a new access token to your project, put this on AuthenticationController.php on functions searchUser() and repos(), follow link: <a href="https://github.com/settings/tokens" target="_blank">GitHub Tokens</a>
+        </ul>
+    </li>
     <li>Third Step:
         <ul>
             <li>Now, run the migrations to your project. Run the command: php artisan migrate</li>
