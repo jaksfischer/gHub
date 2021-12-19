@@ -87,7 +87,7 @@ class AutenticationController extends Controller
             CURLOPT_POSTFIELDS => array($user => '+in:login','type' => 'Users'),
             CURLOPT_HTTPHEADER => array(
                 'Accept: application/vnd.github.v3+json',
-                'Authorization: Bearer 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',
+                'Authorization: Bearer --CreateThisOnGitHub',
                 "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.3.0.7146 Yowser/2.5 Safari/537.36"
             ),
         ));
@@ -115,7 +115,7 @@ class AutenticationController extends Controller
             CURLOPT_POSTFIELDS => array($user => '+in:login','type' => 'Users'),
             CURLOPT_HTTPHEADER => array(
                 'Accept: application/vnd.github.v3+json',
-                'Authorization: Bearer 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',
+                'Authorization: Bearer --CreateThisOnGitHub',
                 "User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.3.0.7146 Yowser/2.5 Safari/537.36"
             ),
         ));
