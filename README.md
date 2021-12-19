@@ -13,10 +13,10 @@
     </li>
     <li>Third Step:
         <ul>
-            <li>Now you have to create a new access token to your project, put this on AuthenticationController.php on functions searchUser() and repos(), follow link: <a href="https://github.com/settings/tokens" target="_blank">GitHub Tokens</a>
+            <li>IMPORTANT STEP! Now you have to create a new access token to your project, put this on AuthenticationController.php on functions searchUser() and repos(), follow link: <a href="https://github.com/settings/tokens" target="_blank">GitHub Tokens</a>
         </ul>
     </li>
-    <li>TFourth Step:
+    <li>Fourth Step:
         <ul>
             <li>Now, run the migrations to your project. Run the command: php artisan migrate</li>
         </ul>
