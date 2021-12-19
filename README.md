@@ -11,22 +11,22 @@
             <li>Run the command: composer dumpautoload</li>
         </ul>
     </li>
-    <li>
+    <li>Third Step:
         <ul>
-            <li>Third Step: Now you have to create a new access token to your project, put this on AuthenticationController.php on functions searchUser() and repos(), follow link: <a href="https://github.com/settings/tokens" target="_blank">GitHub Tokens</a>
+            <li>Now you have to create a new access token to your project, put this on AuthenticationController.php on functions searchUser() and repos(), follow link: <a href="https://github.com/settings/tokens" target="_blank">GitHub Tokens</a>
         </ul>
     </li>
-    <li>Third Step:
+    <li>TFourth Step:
         <ul>
             <li>Now, run the migrations to your project. Run the command: php artisan migrate</li>
         </ul>
     </li>
-    <li>Fourth Step:
+    <li>Fifth Step:
         <ul>
             <li>To start the project you have to open a CMD window, next you have to go in the project file and run the command: php artisan serve</li>
         </ul>
     </li>
-    <li> Fifth Step:
+    <li> Sixth Step:
         <ul>
             <li>Now open your browser and type in adress bar: localhost:8000</li>
         </ul>
