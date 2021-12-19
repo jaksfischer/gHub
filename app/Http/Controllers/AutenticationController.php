@@ -71,6 +71,8 @@ class AutenticationController extends Controller
         return View::make('user-info', compact('info'));
     }
 
+    #You have to create a Access Token on Git Hub (Settings>Developer Settins>Personal Access Token) or follow link https://github.com/settings/tokens
+    #When you create this token, put then on --CreateThisOnGitHub
     public function searchUser($user)
     {
         $curl = curl_init();
@@ -99,6 +101,8 @@ class AutenticationController extends Controller
         return $response;
     }
 
+    #You have to create a Access Token on Git Hub (Settings>Developer Settins>Personal Access Token) or follow link https://github.com/settings/tokens
+    #When you create this token, put then on --CreateThisOnGitHub
     public function repos($user)
     {
         $curl = curl_init();
