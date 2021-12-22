@@ -34,7 +34,7 @@
 </ul>
 <hr />
 <h2>About the Project</h2>
-<p>This is a public repository. The project consists of a small system developed in laravel where you can search for a username and see some information about it and the public repositories that are on github.
+<p>This is a public repository. The project consists of a small system developed in laravel wich you can search for an user's name and receive information on one's repositories available on github.
 
 In the code, in the functions "searchUser()" and "repos()" there is an "Authorization: Bearer --CreateThisOnGitHub", you must add this information, for that, you must create it on gitHub, as requested in the GitHub for documentation Developers.</p>
 <p>Development date: 19/12/2021</p>
