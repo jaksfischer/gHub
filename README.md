@@ -18,7 +18,7 @@
     </li>
     <li>Fourth Step:
         <ul>
-            <li>Now, run the migrations to your project. Run the command: php artisan migrate</li>
+            <li>Now, create a new database called github, next you have to run the migrations to your project. Run the command: php artisan migrate</li>
         </ul>
     </li>
     <li>Fifth Step:
