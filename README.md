@@ -8,7 +8,7 @@
     </li>
     <li>Second Step:
         <ul>
-            <li>Run the command: composer dumpautoload</li>
+            <li>Run the command: composer install</li>
         </ul>
     </li>
     <li>Third Step:
