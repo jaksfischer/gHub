@@ -19,6 +19,7 @@
     <li>Fourth Step:
         <ul>
             <li>Now, create a new database called github, next you have to run the migrations to your project. Run the command: php artisan migrate</li>
+            <li>Then, create a new file called .env and copy this <a href="https://gist.github.com/jaksfischer/63ae8eda5331cf47bc39a47e19513875">gist</a> and change your database information to connect in the project.</li>
         </ul>
     </li>
     <li>Fifth Step:
